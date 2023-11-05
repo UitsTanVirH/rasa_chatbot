@@ -1,0 +1,41 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+
+- intent: thank
+  examples: |
+    - thank you
+    - thanks
+    - thanks so much
+
+- intent: order_pizza
+  examples: |
+    - I want to order a [pizza](food)
+    - can i order a [pizza](food)
+
+- intent: order_food
+  examples: |
+    - i want to order a food
+    - can i order some food please
+
+- intent: inform_food
+  examples: |
+    - [burger](food)
+    - [salad](food)
