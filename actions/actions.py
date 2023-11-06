@@ -48,9 +48,9 @@ class ConfirmOrderAction(Action):
         food_entity = next(tracker.get_latest_entity_values('food', None))
 
         if food_entity:
-            dispatcher.utter_message(text=f"Okay I have order the {food_entity} for you!")
+            dispatcher.utter_message(text=f"Okay I have ordered the {food_entity} for you...")
         else:
-            dispatcher.utter_message(text=f"Sorry, I Could not detect {food_entity}")
+            dispatcher.utter_message(text=f"Sorry, I could not detect {food_entity}.")
 
         return []
 
