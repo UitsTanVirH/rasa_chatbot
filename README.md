@@ -16,21 +16,21 @@ Building Chatbot using Rasa is a project aimed at leveraging machine learning an
 
 1. **Clone the repository:**
 
-    ```
-    git clone https://github.com/UitsTanVirH/rasa_chatbot.git
-    cd rasa_chatbot
-    ```
+```
+git clone https://github.com/UitsTanVirH/rasa_chatbot.git
+cd rasa_chatbot
+```
    
 Create a Virtual Environment:
-    ```
-    python -m venv venv
-    source venv/bin/activate      # On Windows: venv\Scripts\activate
-    ```
+```
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+```
 ##Install Dependencies:
 
-    ```
-    pip install rasa
-    ```
+```
+pip install rasa
+```
 
 ##Usage
 Building Chatbot using Rasa is designed to help users perform tasks faster through the power of machine learning and AI. To use the chatbot, follow these steps:
@@ -45,9 +45,9 @@ Customize the chatbot to suit your specific use case by modifying the domain fil
 ##Training a Model
 Train the Rasa model to enhance the chatbot's performance. Use the following command to train the model:
 
-    ```
-    rasa train
-    ```
+```
+rasa train
+```
 Running the Chatbot
 Run the Rasa server and the action server to start the chatbot. Use the following commands:
 
