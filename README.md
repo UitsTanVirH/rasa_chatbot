@@ -1,4 +1,4 @@
-# Building A Chatbot using Rasa
+# Building a chatbot using Rasa
 
 Building Chatbot using Rasa is a project aimed at leveraging machine learning and AI to assist users in accomplishing tasks more efficiently.
 
