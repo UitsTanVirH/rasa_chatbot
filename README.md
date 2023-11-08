@@ -48,7 +48,7 @@ Train the Rasa model to enhance the chatbot's performance. Use the following com
 ```
 rasa train
 ```
-Running the Chatbot
+## Running the Chatbot
 Run the Rasa server and the action server to start the chatbot. Use the following commands:
 
 ```
